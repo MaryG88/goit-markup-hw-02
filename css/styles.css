@@ -41,8 +41,11 @@ button {
   cursor: pointer;
 }
 
-.address-link {
+address {
   font-style: normal;
+}
+
+.address-link {
   color: #434455;
 }
 
