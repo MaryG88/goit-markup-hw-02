@@ -1,7 +1,7 @@
 body {
-  font-family: 'Roboto', 'Helvetica Neue', 'Verdana', 'Tahoma', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #434455;
-  background-color: E5E5E5;
+  background: #fff;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -20,16 +20,17 @@ h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-
+  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
 
 h3 {
   font-weight: 500;
-  font-size: 16px;
-
+  font-size: 20px;
+  line-height: 1.2;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 p {
@@ -42,6 +43,7 @@ button {
 
 address {
   font-style: normal;
+  color: #434455;
 }
 
 .address-link:hover,
@@ -56,11 +58,11 @@ address {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .logo-accent {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .header-nav-link {
@@ -68,11 +70,8 @@ address {
   color: #2e2f42;
 }
 
-.header-nav-link:hover {
-  color: #404bbf;
-}
-
-.studio:active {
+.header-nav-link:hover,
+.header-nav-link:focus {
   color: #404bbf;
 }
 
@@ -86,13 +85,21 @@ address {
   line-height: 1.07;
   text-align: center;
   color: #fff;
+  letter-spacing: 0.02em;
 }
 
 .hero-button {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
+  line-height: 1.5;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: #404bbf;
 }
 
 .team {
@@ -103,10 +110,15 @@ address {
   background: #2e2f42;
 }
 
-footer .logo {
+footer .logo-accent {
   color: #f4f4fd;
 }
 
 .footer-text {
   color: #f4f4fd;
+}
+
+.team-title,
+.portfolio-title {
+  text-transform: capitalize;
 }
