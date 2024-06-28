@@ -41,7 +41,7 @@ button {
   cursor: pointer;
 }
 
-address {
+.address-link {
   font-style: normal;
   color: #434455;
 }
@@ -99,11 +99,15 @@ address {
 
 .hero-button:hover,
 .hero-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .team {
   background: #f4f4fd;
+}
+
+.team-item {
+  background-color: #ffffff;
 }
 
 .footer {
